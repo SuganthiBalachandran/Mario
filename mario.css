@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imag{
+    background: url(Images/hero-bg2.png);
+    background-size: cover;
+    height: 730px;
+    width: 60%;
+}
+.logo{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+}
+.logo img{
+    width: 40%;
+}
+.list{
+    position: absolute;
+    top:5% ;
+    right: 2%;
+    width: 40%;
+}
+.list ul li{
+    list-style: none;
+    display: inline;
+    padding: 3%;
+}
+.content{
+    float: left;
+    width: 40%;
+}
+.welcome{
+    position: absolute;
+    top: 19%;
+    left: 10%;
+}
+.welcome h3{
+color: white;
+}
+/* .welcome h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3rem;
+} */
+.image img{
+    position: absolute;
+    width: 60%;
+    top: 35%;
+    left: 4%;
+    
+}
+
+.btn{
+    background: transparent;
+    border: 1px solid black;
+    box-shadow: none ;
+    padding: 1%;
+    position: absolute;
+    top:85% ;
+    left: 12%;
+    width: 11%;
+    height: 7%;
+    font-size: 20px;
+}
+.taxi_form{
+    position: absolute;
+     right: 2%;
+    top: 30%;
+    background: black;
+    width: 28%;
+   padding-left:4%;
+   height: 300px;
+   border-radius: 3%;
+    
+
+}
+#get{
+    width: 80%;
+    padding: 5%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+
+}
+#car_type{
+    width: 80%;
+    padding: 3%;
+    margin-bottom: 3%;
+}
+#pickup{
+    width: 80%;
+    padding: 3%;
+    margin-bottom: 3%;
+}
+#drop{
+    width: 80%;
+    padding: 3%;
+    margin-bottom: 3%;
+}
+#phone{
+    width: 50%;
+    padding: 3%;
+    margin-bottom: 3%;
+}
+#btn{
+    width: 30%;
+    padding: 3%;
+    margin-bottom: 3%;
+    background: #f7c621;
+    border: none;
+}
+.clear{
+    clear: both;
+}
+.image2 img{
+    float: left;
+    width: 35%;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+.about{
+    float: right;
+    width: 40%;
+    margin-right: 10%;
+    
+}
+.about h2{
+    width: 80%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #0c0c0c;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 8%;
+}
+#about{
+    width: 90%;
+    margin-top: 12%;
+    line-height: 25px;
+    text-align: justify;
+    font-size: 20px;
+
+}
+#btn1{
+    background: #f7c621;
+    border: none;
+    padding: 2%;
+    margin-top: 5%;
+    border-radius: 5%;
+    width: 25%;
+    font-size: 15px;
+    color: white;
+}
+.image3{
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.709)),url(Images/bg.jpg);
+    background-size: cover;
+    height: 450px;
+    margin-top: 8%;
+}
+.booking{
+    position: absolute;
+    width: 40%;
+    top: 1350px;
+    color: white;
+    left: 7%;
+    visibility: visible;
+    /* animation-name: bounceInRight; */
+    opacity: 1;
+}
+.booking h3{
+    margin-bottom: 5%;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+.booking h1{
+    margin-bottom: 5%;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #f7c621;
+}
+.booking p{
+    margin-bottom: 3%;
+    font-family: "Poppins", sans-serif;  
+}
+#taxi{
+    color: black;
+    padding: 3%;
+    font-size: 15px;
+    width: 30%;
+}
+.book img{
+    position: absolute;
+    top: 1350px;
+    right: 8%;
+    width: 40%;
+
+}
+.work pre{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 8%;
+}
+span{
+    color: #f7c621;
+    
+}
+.indi{
+    float: left;
+    width:33% ;
+}
+.indi img{
+    width: 50%;
+float: left;
+margin-top: 2%;
+margin-left: 10%;
+}
+.indi h4{
+    margin-left: 17%;
+    margin-top: 35%;
+}
+.indi p{
+    margin-left: 17%;
+    margin-top: 2%;
+}
+.ego{
+   float: left;
+    width:33% ;
+}
+.ego img{
+    width: 50%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+
+}
+.ego h4{
+    margin-left: 17%;
+    margin-top: 35%;
+}
+.ego p{
+    margin-left: 17%;
+    margin-top: 2%;
+}
+.inno{
+    float: right;
+     width:33% ;
+ }
+ .inno img{
+     width: 60%;
+     float: right;
+     margin-top: 2%;
+     margin-right :30%;
+ 
+ }
+ .inno h4{
+    margin-top: 34%;
+    margin-left: 20%;
+ }
+ .inno p{
+     margin-left: 20%;
+     margin-top: 2%;
+ }
+ .border{
+    margin-top: 3%;
+       border: 2px solid black;
+        }
+        .footer{
+            background-color: #f7c621;
+            height: 70px;
+            width: 1345px;
+       
+        
+        }
+.footer p{
+    text-align: center;
+padding-top: 2%;
+}
+
+.welcome h1 span {
+    position: relative;
+    top: 8px;
+    display: inline-block;
+    animation: bounce .2s ease infinite alternate;
+    /* font-family: 'Titan One'cursive; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color:black;
+    text-shadow: 0 1px 0 green,
+        0 2px 0 white,
+        0 3px 0 green,
+        0 4px 0 white,
+}
+h1 span:nth-child(2) {
+    animation-delay: .1s;
+}
+
+h1 span:nth-child(3) {
+    animation-delay: .2s;
+}
+
+h1 span:nth-child(4) {
+    animation-delay: .3s;
+}
+h1 span:nth-child(5) {
+    animation-delay: .4s;
+}
+/* @keyframes bounce {
+    100% {
+        top: -20px;
+        text-shadow: 0 1px 0 #CCC,
+            0 2px 0 red,
+            0 3px 0 #CCC,
+            0 4px 0 green,
+    }
+} */
